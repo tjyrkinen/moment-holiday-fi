@@ -27,6 +27,6 @@
   },
   "main": "src/moment-holiday-fi.js",
   "dependencies": {
-    "moment": "~2.5.0"
+    "moment": "~2.x"
   }
 }
