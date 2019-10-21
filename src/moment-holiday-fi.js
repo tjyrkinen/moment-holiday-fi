@@ -105,9 +105,9 @@
 
     var easterRelatedDays = function(moment) {
         var easter = easterSunday(moment.year()),
-            goodFriday = easter.clone().subtract("days", 2),
-            easterMonday = easter.clone().add("days", 1),
-            ascension = easter.clone().add("days", 39);
+            goodFriday = easter.clone().subtract(2, "days"),
+            easterMonday = easter.clone().add(1, "days"),
+            ascension = easter.clone().add(39, "days");
 
         if(moment.isSame(goodFriday)){
             return 'Pitkäperjantai';
